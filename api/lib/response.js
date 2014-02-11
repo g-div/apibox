@@ -1,5 +1,5 @@
 var path = require('path'),
-    config = require(path.resolve(__dirname, "../../config.js"));
+    config = require(path.resolve(__dirname, "../../../config.js"));
 
 module.exports.setResponse = function(res, result) {
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
