@@ -1,0 +1,38 @@
+{
+  "name": "apibox",
+  "version": "0.0.1",
+  "description": "Deploy declarative APIs in a few minutes",
+  "main": "api/api.js",
+  "scripts": {
+    "install": "touch ./docs.yml",
+    "start": "./node_modules/nodemon/bin/nodemon.js -e yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-div/apibox"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "restful",
+    "declarative",
+    "apibox"
+  ],
+  "author": "g-div",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g-div/apibox/issues"
+  },
+  "homepage": "https://github.com/g-div/apibox",
+  "dependencies": {
+    "underscore": "~1.6.0",
+    "dsv": "0.0.3",
+    "async": "~0.2.10",
+    "js-yaml": "~3.0.1",
+    "swagger-express": "1.0.1",
+    "nodemon": "~1.0.14",
+    "flatiron": "~0.3.11",
+    "mongojs": "~0.10.0",
+    "express": "~3.4.8"
+  }
+}
