@@ -2,9 +2,9 @@
   "name": "apibox",
   "version": "0.0.1",
   "description": "Deploy declarative APIs in a few minutes",
+  "bin": "api/api.js",
   "main": "api/api.js",
   "scripts": {
-    "install": "touch ./docs.yml",
     "start": "./node_modules/nodemon/bin/nodemon.js -e yml"
   },
   "repository": {
