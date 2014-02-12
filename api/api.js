@@ -3,7 +3,7 @@
 var express = require('express'),
     http = require('http'),
     path = require('path'),
-    config = require(path.resolve(__dirname, '../config.js')),
+    config = require(path.resolve(__dirname, '../../../config.js')),
     swagger = require('swagger-express'),
     apitools = require(path.resolve(__dirname, '../lib/api-tools'));
 
