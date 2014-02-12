@@ -91,10 +91,15 @@ Please refer to the [Swagger specification](https://github.com/wordnik/swagger-c
 
 ## 3. Run!
 If you didn't it before, then run
+
 	export PATH="$PATH:./node_modules/.bin"
 
 and finally
+
 	apibox
 
 Open your browser at [http://localhost:9987/docs](http://localhost:9987/docs) (or the domain/port you have choosen) to see it working.
 
+If you want to use the CLI run for example:
+
+	node node_modules/apibox/cli/cli.js
