@@ -90,5 +90,11 @@ and then document your API entrypoints, saving **docs.yml**
 Please refer to the [Swagger specification](https://github.com/wordnik/swagger-core/wiki) editing your **docs.yml**
 
 ## 3. Run!
+If you didn't it before, then run
+	export PATH="$PATH:./node_modules/.bin"
+
+and finally
+	apibox
 
 Open your browser at [http://localhost:9987/docs](http://localhost:9987/docs) (or the domain/port you have choosen) to see it working.
+
