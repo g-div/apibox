@@ -15,11 +15,11 @@ app.use(flatiron.plugins.cli, {
 	usage: ['Usage:', 
 		'Simple run node cli.js <command>', '',
 		'commands:',
-		'  getfile - Geocode a CSV or a JSON file',
+		'  file - Geocode a CSV or a JSON file',
 		'  get - Geocode an address using at least one of the parameters below',
 		'',
 		'Example:',
-		'./cli.js getfile path/to/file.csv',
+		'./cli.js file path/to/file.csv',
 		'  or',
 		'./cli.js get --name "Entryname 1"'
 			]
