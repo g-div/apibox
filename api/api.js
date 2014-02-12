@@ -8,12 +8,10 @@ var express = require('express'),
     apitools = require(path.resolve(__dirname, '../lib/api-tools'));
 
 
-
 var app = express(),
     defaultRouting = require('./lib/router.js'),
     docs = path.resolve(__dirname, '..', config.documentation),
     apiConfig = apitools.getApiDocumentation(docs);
-
 
 // swagger
 app.use(swagger.init(app, {
