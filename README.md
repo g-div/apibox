@@ -100,3 +100,6 @@ and finally
 
 Open your browser at [http://localhost:9987/docs](http://localhost:9987/docs) (or the domain/port you have choosen) to see it working.
 
+If you want to use the CLI run for example:
+
+	node node_modules/apibox/cli/cli.js
