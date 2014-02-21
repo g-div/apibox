@@ -97,15 +97,15 @@ Please refer to the [Swagger-core API Declaration specification](https://github.
 If you didn't it before, add the folder **./node_modules/.bin** to your **PATH**, so you will be able to access the commands provided by the installed node.js modules.
 
 ```sh
-	export PATH="$PATH:./node_modules/.bin"
+export PATH="$PATH:./node_modules/.bin"
 ```
 and finally run the server using
 ```sh
-	apibox-serve
+apibox-serve
 ```
 Open your browser at [http://localhost:9987/docs](http://localhost:9987/docs) (or the domain/port you have choosen) to see it working.
 
 If you want to use the CLI, you can run for example:
 ```sh
-	apibox-cli
+apibox-cli
 ```
