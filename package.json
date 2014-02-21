@@ -1,13 +1,12 @@
 {
   "name": "apibox",
-  "version": "0.0.16",
+  "version": "0.0.19",
   "description": "Deploy declarative APIs in a few minutes",
-  "bin": "./api/api.js",
-  "main": "./api/api.js",
-  "scripts": {
-    "install": "npm bin",
-    "start": "./node_modules/nodemon/bin/nodemon.js -e yml"
+  "bin": {
+    "apibox-serve": "./api/api.js",
+    "apibox-cli": "./cli/cli.js"
   },
+  "main": "./api/api.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/g-div/apibox"

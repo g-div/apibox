@@ -4,15 +4,15 @@ apibox
 Create declarative APIs in few minutes
 
 ## 0. Requirements
-	- Node.js
-	- NPM
-	- MongoDB
+- Node.js
+- NPM
+- MongoDB
 
 ## 1. Install
 
 	mkdir myapi
 	cd myapi
-	npm install
+	npm install --save apibox
 
 ## 2. Configure
 
@@ -32,7 +32,7 @@ Save the following file as **config.js**
 	    }
 	};
 
-and then document your API entrypoints, saving **docs.yml**
+and then document your API entrypoints in your **docs.yml** (or somewhere else, if you defined another location in your **config.js**)
 
 	resourcePath: /api/v1
 	description: Test API Entrypoint
@@ -87,19 +87,19 @@ and then document your API entrypoints, saving **docs.yml**
 	      name:
 	        type: String
 
-Please refer to the [Swagger specification](https://github.com/wordnik/swagger-core/wiki) editing your **docs.yml**
+Please refer to the [Swagger-core API Declaration specification](https://github.com/wordnik/swagger-core/wiki) editing your **docs.yml**
 
 ## 3. Run!
-If you didn't it before, then run
+If you didn't it before, add the folder **./node_modules/.bin** to your **PATH**, so you will be able to access the commands provided by the installed node.js modules.
 
 	export PATH="$PATH:./node_modules/.bin"
 
-and finally
+and finally run the server using
 
-	apibox
+	apibox-serve
 
 Open your browser at [http://localhost:9987/docs](http://localhost:9987/docs) (or the domain/port you have choosen) to see it working.
 
-If you want to use the CLI run for example:
+If you want to use the CLI, you can run for example:
 
-	node node_modules/apibox/cli/cli.js
+	apibox-cli
