@@ -1,3 +1,5 @@
+**Important**: This module was a proof of concept and it wasn't build to run in production. Since Strongloop's [Loopback](strongloop/loopback) has a similar goal, this module **will not be mantained anymore**.
+
 apibox
 ======
 
